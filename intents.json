@@ -1,0 +1,210 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Hey there",
+        "hello there"
+      ],
+      "responses": [
+        "Hello How may I help You?",
+        "Hi,How can I help You?",
+        "Hi there,What Can I do for You Today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later",
+        "Have a nice day",
+        "Bye! Come back again"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're most welcome!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?"
+      ],
+      "responses": [
+        "I'm a Science question related intelligent bot assistant, here to assist you!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "My name is OpenFabric Chatbot. My purpose is to help you. How can I help you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint.",
+        "I want to raise an issue.",
+        "I am facing an inconvenience.",
+        "I want to report a problem."
+      ],
+      "responses": [
+        "Please contact us and let us know your issue. We're more than happy to help you out!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How do I contact you?",
+        "helpline numbers",
+        "What are your contact details?",
+        "How do I reach you?",
+        "WHat are your sources of cotact in case of need?"
+      ],
+      "responses": [
+        "Mail us at contact@openfabric.ai"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Physics",
+      "patterns": [
+        "What is the formula for calculating force?",
+        "What is the ideal gas law?",
+        "What is Einstein's famous equation?",
+        "What is the Pythagorean theorem?",
+        "What is the equation of motion?",
+        "What is Hooke's law?",
+        "What is the principle of conservation of momentum?",
+        "What is the law of gravitation?",
+        "What is Archimedes' principle?",
+        "What is the photoelectric effect?"
+      ],
+      "responses": [
+        "The formula for calculating force is F = mass * acceleration.",
+        "The ideal gas law is expressed as PV = nRT, where P is pressure, V is volume, n is the number of moles of gas, R is the gas constant, and T is temperature.",
+        "Einstein's famous equation is E=mc^2, which states the equivalence of mass and energy.",
+        "The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides.",
+        "The equation of motion describes the motion of an object in terms of its velocity, acceleration, displacement, and time.",
+        "Hooke's law states that the force needed to extend or compress a spring by some distance is proportional to that distance.",
+        "The principle of conservation of momentum states that the total momentum of an isolated system remains constant if no external forces act on it.",
+        "The law of gravitation states that every point mass attracts every other point mass with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+        "Archimedes' principle states that an object submerged in a fluid is buoyed up by a force equal to the weight of the fluid displaced by the object.",
+        "The photoelectric effect refers to the emission of electrons from a material when light of a certain frequency shines on it."
+      ]
+    },
+    {
+      "tag": "Chemistry",
+      "patterns": [
+        "What is the atomic number of hydrogen?",
+        "What is the chemical symbol for gold?",
+        "What is Avogadro's number?",
+        "What is the difference between an atom and a molecule?",
+        "What is the definition of a chemical bond?",
+        "What is the law of conservation of mass?",
+        "What is the difference between an element and a compound?",
+        "What is the definition of a chemical reaction?",
+        "What is the formula for calculating density?",
+        "What is the pH scale?"
+      ],
+      "responses": [
+        "The atomic number of hydrogen is 1.",
+        "The chemical symbol for gold is Au.",
+        "Avogadro's number is approximately 6.022 x 10^23.",
+        "An atom is the basic unit of a chemical element, whereas a molecule is a group of atoms bonded together.",
+        "A chemical bond is a force of attraction between two atoms that holds them together in a molecule.",
+        "The law of conservation of mass states that mass in a closed system is neither created nor destroyed in chemical reactions.",
+        "An element consists of only one type of atom, while a compound consists of two or more different types of atoms bonded together.",
+        "A chemical reaction is a process that leads to the transformation of one set of chemical substances to another.",
+        "The formula for calculating density is mass divided by volume (D = m / V).",
+        "The pH scale is a measure of the acidity or alkalinity of a solution, ranging from 0 to 14, with 7 being neutral."
+      ]
+    },
+    {
+      "tag": "Mathematics",
+      "patterns": [
+        "What is the value of π (pi)?",
+        "What is the Pythagorean theorem?",
+        "What is the area formula for a circle?",
+        "What is the formula for the volume of a sphere?",
+        "What is the quadratic formula?",
+        "What is the difference between permutations and combinations?",
+        "What is the formula for the area of a triangle?",
+        "What is the definition of a function?",
+        "What is the difference between a linear and quadratic equation?",
+        "What is the formula for the perimeter of a rectangle?"
+      ],
+      "responses": [
+        "The value of π (pi) is approximately 3.14159.",
+        "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides.",
+        "The area formula for a circle is A = πr^2, where r is the radius of the circle.",
+        "The formula for the volume of a sphere is V = (4/3)πr^3, where r is the radius of the sphere.",
+        "The quadratic formula is used to solve quadratic equations of the form ax^2 + bx + c = 0, and it is given by x = (-b ± √(b^2 - 4ac)) / (2a).",
+        "Permutations refer to the number of ways to arrange a set of objects in a specific order, while combinations refer to the number of ways to select a subset of objects from a larger set without considering the order.",
+        "The formula for the area of a triangle is A = (1/2)bh, where b is the length of the base and h is the height.",
+        "A function is a relation between a set of inputs and a set of possible outputs, where each input is related to exactly one output.",
+        "Linear equations are equations of the form ax + b = 0, where x is the variable and a and b are constants, while quadratic equations are equations of the form ax^2 + bx + c = 0.",
+        "The formula for the perimeter of a rectangle is P = 2l + 2w, where l is the length and w is the width."
+      ]
+    },
+    {
+      "tag": "General Science",
+      "patterns": [
+        "What is the boiling point of water?",
+        "Who is known as the father of modern physics?",
+        "What is the chemical symbol for gold?",
+        "What causes tides?",
+        "How does a battery work?",
+        "What is the largest organ in the human body?",
+        "What is the main function of the nucleus in a cell?",
+        "What is the process by which plants make their own food?",
+        "What causes rainbows to form?",
+        "What is the role of white blood cells in the immune system?"
+      ],
+      "responses": [
+        "The boiling point of water is 100 degrees Celsius (212 degrees Fahrenheit) at standard atmospheric pressure.",
+        "Albert Einstein is often referred to as the father of modern physics.",
+        "The chemical symbol for gold is Au.",
+        "Tides are primarily caused by the gravitational pull of the moon and the sun on Earth's oceans.",
+        "A battery works by converting chemical energy into electrical energy through a chemical reaction.",
+        "The skin is the largest organ in the human body.",
+        "The main function of the nucleus in a cell is to store and protect the genetic material (DNA) of the cell.",
+        "Photosynthesis is the process by which plants make their own food using sunlight, carbon dioxide, and water.",
+        "Rainbows form when sunlight is refracted, or bent, and then reflected inside water droplets in the atmosphere.",
+        "White blood cells play a key role in the immune system by defending the body against infections and foreign invaders."
+      ]
+    }
+  ]
+}
